@@ -1,4 +1,4 @@
-package string
+package strutil
 
 func Reverse(s string) string {
 	b := []byte(s)
