@@ -17,4 +17,7 @@ func main() {
 	fmt.Println(name, age, dummy)
 	fmt.Printf("%T\n", name)
 	fmt.Println(size, flt, name1, name2)
+	// trying not declaring anything results in a variable that actually holds absolutely nothing
+	var name3 string
+	fmt.Println(name3)
 }
